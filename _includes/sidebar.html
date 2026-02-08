@@ -1,0 +1,14 @@
+{% if site.data.sidebar %}
+  {% for item in site.data.sidebar.items %}
+  <p><a href="{{ item.url | relative_url }}">{{ item.title }}</a></p>
+  {% endfor %}
+{% else %}
+  <!-- Default sidebar items - update _data/sidebar.yml -->
+  <p><a href="/roundaboutart.html">IKA Roundabout Art</a></p>
+  <p><a href="/ebf.html">IKA Evidensbaserad fördom</a></p>
+  <p><a href="/kidsclub.html">IKA Kids Club</a></p>
+  <p><a href="/laromedel.html">IKA Läromedel</a></p>
+  <p><a href="/statskyrkomuseum.html">IKA Statskyrkomuseum</a></p>
+  <p><a href="/jagarlikgiltig.html">IKA Jag är likgiltig</a></p>
+{% endif %}
+

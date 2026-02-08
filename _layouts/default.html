@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-<html lang="{{ site.data.metadata.lang | default: 'sv' }}">
+<html lang="{{ site.data.metadata.lang | default: 'sv' }}" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.name | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.name }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:image" content="{{ site.url }}{{ page.image | default: site.data.metadata.og_image }}">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="{{ site.data.metadata.twitter_card }}">
-    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.data.site.name }}">
-    <meta property="twitter:description" content="{{ page.description | default: site.description }}">
-    <meta property="twitter:image" content="{{ site.url }}{{ page.image | default: site.data.metadata.og_image }}">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "{{ site.data.site.name }}",
-      "url": "{{ site.url }}",
-      "logo": "{{ site.url }}/assets/images/icons/logo.svg",
-      "description": "{{ site.description }}"
-    }
-    </script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
 </head>
-<body>
-    {% include header.html %}
-    
-    <main id="main-content" role="main">
-        {{ content }}
-    </main>
-    
-    {% include footer.html %}
-    
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<body class="twoColFixLtHdr">
+<div id="container">
+  <div id="bildhallare">
+    <img src="{{ '/assets/images/icons/ikalogo2.jpg' | relative_url }}" width="780" height="128" alt="{{ site.data.site.name }}" />
+  </div>
+  
+  {% include navigation.html %}
+  
+  <div id="sidebar1">
+    {% include sidebar.html %}
+  </div>
+  
+  <div id="mainContent">
+    {{ content }}
+  </div>
+  
+  <br class="clearfloat" />
+  
+  <div class="style3" id="footer">
+    © {{ 'now' | date: "%Y" }} {{ site.data.site.name | default: "IKA" }}
+  </div>
+</div>
 </body>
 </html>
-
