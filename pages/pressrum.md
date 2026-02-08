@@ -5,30 +5,42 @@ layout: "page"
 permalink: "/pressrum/"
 ---
 
-<h2>Pressrum</h2>
-    <div>
-      <p>Välkommen till IKA:s pressrum. Här  hittar du presskontakter, bilder för fri publicering och  pressmeddelanden om IKA.</p>
-      <h3>Jag är likgiltig för Västerås </h3>
-      <h4>Pressmeddelanden</h4>
-      <p><a href="dokument/pressmeddelande110609.pdf">Pressmeddelande 110609</a></p>
-      <h4>Bilder</h4>
-      <p><a href="dokument/trojajagarlikgiltigv.JPG">Jag är likgiltig - tröja (jpg-format)</a></p>
-      <p><a href="dokument/Jagarlikgiltigforvasteras.jpg">Jag är likgiltig - logotyp (jpg-format</a>)</p>
-      <p><a href="dokument/Jagarlikgiltigpdf.pdf">jag är likgiltig - logotyp (pdf-format</a>)</p>
+## Pressrum
 
-      <h3>Äldre pressmeddelande</h3>
-      <h4>Landskapsbrott 080805</h4>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805nationellt.pdf">Pressmeddelande nationellt</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805bohuslan.pdf">Pressmeddelande Bohuslän</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805jamtland.pdf">Pressmeddelande Jämtland</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805skane.pdf">Pressmeddelande Skåne</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805sodermanland.pdf">Pressmeddelande Södermanland</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805uppland.pdf">Pressmeddelande Uppland</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805vasternorrland.pdf">Pressmeddelande Västernorrland</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805vastmanland.pdf">Pressmeddelande Västmanland</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805vastsverige.pdf">Pressmeddelande Västsverige</a></p>
-      <p><a href="landskapsbrottpressmed/landskapsbrottpressmeddelande080805ostergotland.pdf">Pressmeddelande Östergötland</a></p>
+Välkommen till IKA:s pressrum. Här hittar du presskontakter, bilder för fri publicering och pressmeddelanden om IKA.
 
-      <h3>Femgenerationsbilder</h3>
-      <p>För närvarande finns aktuella  femgenerationsbilder i inget av IKA:s distrikt.</p>
-    </div>
+### Jag är likgiltig för Västerås
+#### Pressmeddelanden
+[Pressmeddelande 110609](dokument/pressmeddelande110609.pdf)
+
+#### Bilder
+[Jag är likgiltig - tröja (jpg-format)](dokument/trojajagarlikgiltigv.JPG)
+
+[Jag är likgiltig - logotyp (jpg-format)](dokument/Jagarlikgiltigforvasteras.jpg)
+
+[jag är likgiltig - logotyp (pdf-format)](dokument/Jagarlikgiltigpdf.pdf)
+
+### Äldre pressmeddelande
+#### Landskapsbrott 080805
+[Pressmeddelande nationellt](landskapsbrottpressmed/landskapsbrottpressmeddelande080805nationellt.pdf)
+
+[Pressmeddelande Bohuslän](landskapsbrottpressmed/landskapsbrottpressmeddelande080805bohuslan.pdf)
+
+[Pressmeddelande Jämtland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805jamtland.pdf)
+
+[Pressmeddelande Skåne](landskapsbrottpressmed/landskapsbrottpressmeddelande080805skane.pdf)
+
+[Pressmeddelande Södermanland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805sodermanland.pdf)
+
+[Pressmeddelande Uppland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805uppland.pdf)
+
+[Pressmeddelande Västernorrland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805vasternorrland.pdf)
+
+[Pressmeddelande Västmanland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805vastmanland.pdf)
+
+[Pressmeddelande Västsverige](landskapsbrottpressmed/landskapsbrottpressmeddelande080805vastsverige.pdf)
+
+[Pressmeddelande Östergötland](landskapsbrottpressmed/landskapsbrottpressmeddelande080805ostergotland.pdf)
+
+### Femgenerationsbilder
+För närvarande finns aktuella femgenerationsbilder i inget av IKA:s distrikt.

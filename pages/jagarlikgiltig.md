@@ -5,31 +5,35 @@ layout: "page"
 permalink: "/jagarlikgiltig/"
 ---
 
-<h2><img src="/assets/images/content/trojajagarlikgiltig.JPG" width="340" height="249" /></h2>
-    <h2>Jag är likgiltig för Västerås    </h2>
-    <p>IKA är grundare av kampanjen Jag  är likgiltig för Västerås. </p>
-    <p>Vi   gläder oss  åt en stad som klarar sig utmärkt utan vår kärlek  och att   det går så bra att trivas i Västerås  utan att känna något för staden.   </p>
-    <p>Inför kampanjen  har IKA inbjudit Västerås stad till samarbete.  Efter   ett bra möte med representanter för  stadsledningskontoret såg de fördelarna med  kampanjen men valde att   avstå från medverkan. </p>
-    <p>Vi väljer att gå vidare - för  västeråsarna, tillsammans med alla som   stämmer in  i vårt budskap. </p>
+## {% include image.html src="/assets/images/content/trojajagarlikgiltig.JPG" alt="" width="340" height="249" %}
+## Jag är likgiltig för Västerås
+IKA är grundare av kampanjen Jag  är likgiltig för Västerås.
 
-    <h3>Vill du beställa t-tröja? </h3>
-    <p>Tröjan kostar 100 kronor inklusive moms. Frakt tillkommer enligt postens portotabell. Vid beställning av en tröja är fraktkostnaden 24 kronor. </p>
-    <p>Gör din beställning till:</p>
-    <p><a href="mailto:processagare@konstochansvar.se">processagare@konstochansvar.se</a>.</p>
-    <p>(Kampanjen är inte skapad i vinstsyfte. IKA förbinder sig att låta all eventuell vinst från projektet tillfalla staten.)</p>
+Vi   gläder oss  åt en stad som klarar sig utmärkt utan vår kärlek  och att   det går så bra att trivas i Västerås  utan att känna något för staden.
 
-    <h3>Önskar du andra profilprodukter?</h3>
-    <p>En mängd andra produkter med den grafiska profilen kan  beställas <a href="http://www.cafepress.com/vasteras1">här. >></a></p>
+Inför kampanjen  har IKA inbjudit Västerås stad till samarbete.  Efter   ett bra möte med representanter för  stadsledningskontoret såg de fördelarna med  kampanjen men valde att   avstå från medverkan.
 
-    <h3>Vill du ladda ner grafisk profil?</h3>
-    <p>Vill du göra din egen t-tröja eller på annat sätt visa din likgiltighet för Västerås, kan du ladda ner den grafiska profilen som  PDF eller JPG.</p>
-    <p><a href="dokument/Jagarlikgiltigpdf.pdf">Ladda ner den grafiska profilen i PDF-format här >></a></p>
-    <p><a href="dokument/Jagarlikgiltigforvasteras.jpg">Ladda ner den grafiska profilen i JPG-format här >></a></p>
+Vi väljer att gå vidare - för  västeråsarna, tillsammans med alla som   stämmer in  i vårt budskap.
 
-    <div><img src="/assets/images/content/Jagarlikgiltigforvasteras.jpg" width="340" height="126" /></div>
+### Vill du beställa t-tröja?
+Tröjan kostar 100 kronor inklusive moms. Frakt tillkommer enligt postens portotabell. Vid beställning av en tröja är fraktkostnaden 24 kronor.
 
-    <p class="style4">I :-| Västerås</p>
-    <p>
-      <!-- end #mainContent -->
-    </p>
-  </div>
+Gör din beställning till:
+
+[processagare@konstochansvar.se](mailto:processagare@konstochansvar.se).
+
+(Kampanjen är inte skapad i vinstsyfte. IKA förbinder sig att låta all eventuell vinst från projektet tillfalla staten.)
+
+### Önskar du andra profilprodukter?
+En mängd andra produkter med den grafiska profilen kan  beställas [här. >>](http://www.cafepress.com/vasteras1)
+
+### Vill du ladda ner grafisk profil?
+Vill du göra din egen t-tröja eller på annat sätt visa din likgiltighet för Västerås, kan du ladda ner den grafiska profilen som  PDF eller JPG.
+
+[Ladda ner den grafiska profilen i PDF-format här >>](dokument/Jagarlikgiltigpdf.pdf)
+
+[Ladda ner den grafiska profilen i JPG-format här >>](dokument/Jagarlikgiltigforvasteras.jpg)
+
+{% include image.html src="/assets/images/content/Jagarlikgiltigforvasteras.jpg" alt="" width="340" height="126" %}
+
+I :-| Västerås

@@ -5,13 +5,14 @@ layout: "page"
 permalink: "/statskyrkomuseum/"
 ---
 
-<h3>IKA Statskyrkomuseum</h3>
-    <div>
-      <p><img src="/assets/images/content/statskyrkomuseum.JPG" alt="statskyrkomuseum" width="160" height="213" class="fltlft" /></p>
-      <p>IKA startar en nytt projekt - IKA Statskyrkomuseum. Syftet är att skildra staten i kyrkan. För att klara av det behöver vi din hjälp.</p>
-      <p><a href="/statskyrkoupload/">Har du bildmaterial att bidra med? >></a></p>
+### IKA Statskyrkomuseum
 
-      <p><img src="/assets/images/content/skmstampel.jpg" alt="Tillhör Statskyrkomuseet" width="160" height="107" class="fltlft" />IKA omarbetar riktlinjerna för märkning av material på statskyrkomuseet. Därför är det ej längre möjligt att köpa stämplen.<br />
-        Har du frågor? Mejla: <a href="mailto:processagare@konstochansvar.se">processagare@konstochansvar.se</a></p>
+{% include image.html src="/assets/images/content/statskyrkomuseum.JPG" alt="statskyrkomuseum" width="160" height="213" class="fltlft" %}
 
-    </div>
+IKA startar en nytt projekt - IKA Statskyrkomuseum. Syftet är att skildra staten i kyrkan. För att klara av det behöver vi din hjälp.
+
+[Har du bildmaterial att bidra med? >>](/statskyrkoupload/)
+
+{% include image.html src="/assets/images/content/skmstampel.jpg" alt="Tillhör Statskyrkomuseet" width="160" height="107" class="fltlft" %}IKA omarbetar riktlinjerna för märkning av material på statskyrkomuseet. Därför är det ej längre möjligt att köpa stämplen.
+
+Har du frågor? Mejla: [processagare@konstochansvar.se](mailto:processagare@konstochansvar.se)
