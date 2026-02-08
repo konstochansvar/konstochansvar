@@ -1,8 +1,8 @@
 # Site Settings
 title: "Konst och Ansvar"
 description: "Konstnärliga lösningar med ansvar"
-url: "https://konstochansvar.se" # Update with your GitHub Pages URL or custom domain
-baseurl: "" # Leave empty if deploying to root, or use "/repository-name"
+url: "https://ingnse.github.io" # GitHub Pages base URL
+baseurl: "/konstochansvar" # Repository name for GitHub Pages
 
 # Build Settings
 markdown: kramdown

@@ -2,20 +2,30 @@
   Image include with optional caption and responsive support
   
   Parameters:
-  - src: Image source path (required)
+  - src: Image source path (required) - should be a path like "/assets/images/content/image.jpg"
   - alt: Alt text (required)
   - caption: Optional caption text
-  - class: Optional CSS class
+  - class: Optional CSS class (e.g., "fltlft" for floating left)
+  - width: Optional width attribute
+  - height: Optional height attribute
   - loading: Loading attribute (lazy/eager, default: lazy)
 {% endcomment %}
-
+{% if include.caption %}
 <figure class="image-container {% if include.class %}{{ include.class }}{% endif %}">
     <img src="{{ include.src | relative_url }}" 
          alt="{{ include.alt }}" 
+         {% if include.width %}width="{{ include.width }}"{% endif %}
+         {% if include.height %}height="{{ include.height }}"{% endif %}
          loading="{{ include.loading | default: 'lazy' }}"
          class="content-image">
-    {% if include.caption %}
     <figcaption class="image-caption">{{ include.caption }}</figcaption>
-    {% endif %}
 </figure>
+{% else %}
+<img src="{{ include.src | relative_url }}" 
+     alt="{{ include.alt }}" 
+     {% if include.width %}width="{{ include.width }}"{% endif %}
+     {% if include.height %}height="{{ include.height }}"{% endif %}
+     {% if include.class %}class="{{ include.class }}"{% endif %}
+     loading="{{ include.loading | default: 'lazy' }}">
+{% endif %}
 
