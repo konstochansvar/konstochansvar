@@ -109,6 +109,16 @@ body {
     font-size: 12px;
 }
 
+.twoColFixLtHdr #mainContent h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    clear: both;
+}
+
 .twoColFixLtHdr #mainContent h3 {
     margin: 0;
     padding: 0;
@@ -117,6 +127,11 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     clear: both;
+}
+
+/* Reduce top margin when h3 immediately follows h2 */
+.twoColFixLtHdr #mainContent h2 + h3 {
+    margin-top: 0.3em;
 }
 
 /* Create a clearfix before each h3 to ensure previous floats don't affect it */

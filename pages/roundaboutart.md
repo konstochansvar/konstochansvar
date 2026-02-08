@@ -42,6 +42,6 @@ Stilleben, IKA 2007
 
 Vasagatan, IKA 2007
 
-##### Roundabout Art är IKA:s program för konst i det offentliga  rummet. Rondellen är en frigörande metafor för IKA:s  strävan att bredda *Street*-begreppet – inte för att  minska kollisionerna, men för att skapa gemensam rörelse och  så göra dem mindre våldsamma.
-##### IKA  ägnar sig inte åt s.k. rondellkonst.
-#####
+Roundabout Art är IKA:s program för konst i det offentliga  rummet. Rondellen är en frigörande metafor för IKA:s  strävan att bredda *Street*-begreppet – inte för att  minska kollisionerna, men för att skapa gemensam rörelse och  så göra dem mindre våldsamma.
+
+IKA  ägnar sig inte åt s.k. rondellkonst.
