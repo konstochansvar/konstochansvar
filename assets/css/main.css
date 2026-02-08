@@ -116,6 +116,41 @@ body {
     margin-bottom: 0.5em;
     font-size: 1.2em;
     font-weight: bold;
+    clear: both;
+}
+
+/* Create a clearfix before each h3 to ensure previous floats don't affect it */
+.twoColFixLtHdr #mainContent h3:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Wrap each section by making h3 create a new formatting context */
+.twoColFixLtHdr #mainContent h3 {
+    display: flow-root; /* Creates a new block formatting context, isolating floats */
+}
+
+/* Alternative: Use overflow to contain floats if flow-root isn't supported */
+@supports not (display: flow-root) {
+    .twoColFixLtHdr #mainContent h3 {
+        display: block;
+        overflow: hidden;
+    }
+}
+
+/* Style for section containers created by JavaScript */
+.twoColFixLtHdr #mainContent .section-wrapper {
+    display: flow-root;
+    clear: both;
+    margin-bottom: 1em;
+}
+
+@supports not (display: flow-root) {
+    .twoColFixLtHdr #mainContent .section-wrapper {
+        display: block;
+        overflow: hidden;
+    }
 }
 
 .twoColFixLtHdr #mainContent h5 {

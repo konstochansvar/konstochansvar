@@ -2,4 +2,47 @@
 layout: default
 ---
 
+<div class="home-content">
 {{ content }}
+</div>
+
+<script>
+(function() {
+    // Wrap each h3 and its following content until the next h3 in a div
+    const homeContent = document.querySelector('.home-content');
+    if (!homeContent) return;
+    
+    const children = Array.from(homeContent.childNodes);
+    const sections = [];
+    let currentSection = null;
+    
+    children.forEach(node => {
+        if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'H3') {
+            // Start a new section
+            if (currentSection) {
+                sections.push(currentSection);
+            }
+            currentSection = document.createElement('div');
+            currentSection.className = 'section-wrapper';
+            currentSection.appendChild(node);
+        } else if (currentSection) {
+            // Add to current section
+            currentSection.appendChild(node);
+        } else {
+            // Content before first h3
+            sections.push(node);
+        }
+    });
+    
+    // Add the last section
+    if (currentSection) {
+        sections.push(currentSection);
+    }
+    
+    // Clear and rebuild
+    homeContent.innerHTML = '';
+    sections.forEach(section => {
+        homeContent.appendChild(section);
+    });
+})();
+</script>
