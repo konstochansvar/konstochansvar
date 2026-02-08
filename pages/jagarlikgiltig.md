@@ -31,9 +31,9 @@ En mängd andra produkter med den grafiska profilen kan  beställas [här. >>](h
 ### Vill du ladda ner grafisk profil?
 Vill du göra din egen t-tröja eller på annat sätt visa din likgiltighet för Västerås, kan du ladda ner den grafiska profilen som  PDF eller JPG.
 
-[Ladda ner den grafiska profilen i PDF-format här >>]({{ '/dokument/Jagarlikgiltigpdf.pdf' | relative_url }})
+[Ladda ner den grafiska profilen i PDF-format här >>](dokument/Jagarlikgiltigpdf.pdf)
 
-[Ladda ner den grafiska profilen i JPG-format här >>]({{ '/dokument/Jagarlikgiltigforvasteras.jpg' | relative_url }})
+[Ladda ner den grafiska profilen i JPG-format här >>](dokument/Jagarlikgiltigforvasteras.jpg)
 
 {% include image.html src="/assets/images/content/Jagarlikgiltigforvasteras.jpg" alt="" width="340" height="126" %}
 
