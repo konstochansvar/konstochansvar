@@ -7,6 +7,15 @@ baseurl: "" # Leave empty if deploying to root, or use "/repository-name"
 # Build Settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: false
+  parse_block_html: true
+  parse_span_html: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap

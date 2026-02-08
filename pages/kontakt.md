@@ -11,4 +11,3 @@ permalink: "/kontakt/"
       <p><a href="mailto:processagare@konstochansvar.se">processagare@konstochansvar.se</a></p>
       <p>Vill du nå någon speciell person i organisationen mejlar du till fornamn@konstochansvar.se (inte å,ä och ö)</p>
 
-    </div>
