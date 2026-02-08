@@ -5,7 +5,7 @@ layout: "home"
 permalink: "/"
 ---
 
-### Jag är likgiltig för Västerås
+# Jag är likgiltig för Västerås
 
 2011-05-24
 
@@ -17,7 +17,7 @@ Här kan du läsa mer, ladda ner den grafiska profilen eller beställa tröjan.
 
 [Läs mer >>]({{ '/jagarlikgiltig/' | relative_url }})
 
-### Meningsskapande historia
+# Meningsskapande historia
 
 2011-04-25
 
@@ -27,7 +27,7 @@ Bor du i en region som saknar lämningar från någon eller flera tidsepoker. I 
 
 > [Läs mer >>]({{ '/roundaboutart/' | relative_url }})
 
-### Kampanjen Visa engagemang avslutad
+# Kampanjen Visa engagemang avslutad
 
 2009-11-03
 
@@ -37,7 +37,7 @@ Under oktober har IKA genomfört projektet Visa engagemang. Kampanjen är avslut
 
 [Läs mer >>]({{ '/engagemang/' | relative_url }})
 
-### Självstärkande material
+# Självstärkande material
 
 2009-07-16
 
@@ -45,7 +45,7 @@ Under oktober har IKA genomfört projektet Visa engagemang. Kampanjen är avslut
 
 Som verktyg i arbetet med den enskilde konsumentens relationer använder IKA reklamationsetiketter. IKA-vänner har efterfrågat dessa för eget bruk varför de från den 17 juli finns att köpa till självkostnadspris. Beställ valfritt antal för 70 öre/st via e-post [processagare@konstochansvar.se](mailto:processagare@konstochansvar.se). Frakt tillkommer.
 
-### Statskyrkomuseum - ny verksamhet i IKA:s regi
+# Statskyrkomuseum - ny verksamhet i IKA:s regi
 
 2008-10-13
 
@@ -55,7 +55,7 @@ IKA startar en nytt projekt - IKA Statskyrkomuseum. Syftet är att skildra state
 
 [Läs mer >>]({{ '/statskyrkomuseum/' | relative_url }})
 
-### Sveriges landskapsbrott utsedda
+# Sveriges landskapsbrott utsedda
 
 2008-08-05
 
@@ -69,7 +69,7 @@ Genom att undersöka hur överrepresenterade olika brott är i våra landskap ha
 
 [Direkt till listan >>]({{ '/lblistan/' | relative_url }})
 
-### Teori och praktik på barnens villkor
+# Teori och praktik på barnens villkor
 
 2008-05-22
 
@@ -79,7 +79,7 @@ Den ljusa källarsalen bubblar av barnröster när vi kliver in. Det är IKA Kid
 
 [Läs mer >>]({{ '/kidsclub/' | relative_url }})
 
-### Institutet för konst och ansvar
+# Institutet för konst och ansvar
 
 {% include image.html src="/assets/images/content/squars.jpg" alt="Vad är IKA" width="160" height="120" class="fltlft" %}
 

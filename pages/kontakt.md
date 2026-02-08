@@ -5,7 +5,7 @@ layout: "page"
 permalink: "/kontakt/"
 ---
 
-### Kontakt
+# Kontakt
 
 IKA vill ha kontakt med sin publik och sina samarbetspartner. Det kan handla om frågor om kring IKA, beställningar eller synpunkter på ett visst projekt. Tveka inte att kontakta oss.
 

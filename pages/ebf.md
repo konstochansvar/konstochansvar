@@ -5,7 +5,7 @@ layout: "page"
 permalink: "/ebf/"
 ---
 
-### Sveriges landskapsbrott utsedda
+# Sveriges landskapsbrott utsedda
 
 {% include image.html src="/assets/images/content/011.JPG" alt="" width="160" height="163" class="fltlft" %}
 
@@ -27,7 +27,7 @@ Timingen för landskapsbrotten tycker Martin känns helt rätt:
 
 – Landskapsblommorna utnämndes på året för hundra år sedan, landskapsdjuren för tjugo år sedan. De är en självklarhet att lära sig för svenska skolbarn, det här känns som en bra uppföljning.
 
-### Hela listan
+## Hela listan
 
 <table width="504" border="0">
 <tr>

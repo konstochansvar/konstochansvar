@@ -5,7 +5,7 @@ layout: "page"
 permalink: "/statskyrkomuseum/"
 ---
 
-### IKA Statskyrkomuseum
+# IKA Statskyrkomuseum
 
 {% include image.html src="/assets/images/content/statskyrkomuseum.JPG" alt="statskyrkomuseum" width="160" height="213" class="fltlft" %}
 

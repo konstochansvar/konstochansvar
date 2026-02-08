@@ -5,18 +5,18 @@ layout: "page"
 permalink: "/vanligafragor/"
 ---
 
-### Vanliga frågor
+# Vanliga frågor
 
-#### Vad är IKA?
+## Vad är IKA?
 Institutet för konst och ansvar, IKA är en oberoende samhällsaktör grundad i Västerås. IKA ser det som sitt uppdrag att förena  konst och ansvar.
 
-#### Varför är IKA viktigt?
+## Varför är IKA viktigt?
 Då  konst utan ansvar blir en hallucination och ansvar utan konst  en Sovjet-byråkrati vill IKA stå för både och.
 
-#### Vem är IKA till för?
+## Vem är IKA till för?
 IKA företräder den  lilla människan och är en röst för alla som är för svaga för att  påverka.
 
-#### Vem bestämmer i IKA?
+## Vem bestämmer i IKA?
 IKA:s arbete utgår från manifestet,* 21 sentenser om IKA och dess uppdrag*. IKA:s styrelse styr verksamheten. IKA:s processägare driver institutets projekt.
 
 **Hur länge har IKA funnits?**

@@ -5,23 +5,23 @@ layout: "page"
 permalink: "/pressrum/"
 ---
 
-## Pressrum
+# Pressrum
 
 Välkommen till IKA:s pressrum. Här hittar du presskontakter, bilder för fri publicering och pressmeddelanden om IKA.
 
-### Jag är likgiltig för Västerås
-#### Pressmeddelanden
+## Jag är likgiltig för Västerås
+### Pressmeddelanden
 [Pressmeddelande 110609]({{ '/dokument/pressmeddelande110609.pdf' | relative_url }})
 
-#### Bilder
+### Bilder
 [Jag är likgiltig - tröja (jpg-format)]({{ '/dokument/trojajagarlikgiltigv.JPG' | relative_url }})
 
 [Jag är likgiltig - logotyp (jpg-format)]({{ '/dokument/Jagarlikgiltigforvasteras.jpg' | relative_url }})
 
 [jag är likgiltig - logotyp (pdf-format)]({{ '/dokument/Jagarlikgiltigpdf.pdf' | relative_url }})
 
-### Äldre pressmeddelande
-#### Landskapsbrott 080805
+## Äldre pressmeddelande
+### Landskapsbrott 080805
 [Pressmeddelande nationellt]({{ '/dokument/landskapsbrottpressmed/landskapsbrottpressmeddelande080805nationellt.pdf' | relative_url }})
 
 [Pressmeddelande Bohuslän]({{ '/dokument/landskapsbrottpressmed/landskapsbrottpressmeddelande080805bohuslan.pdf' | relative_url }})
@@ -42,5 +42,5 @@ Välkommen till IKA:s pressrum. Här hittar du presskontakter, bilder för fri p
 
 [Pressmeddelande Östergötland]({{ '/dokument/landskapsbrottpressmed/landskapsbrottpressmeddelande080805ostergotland.pdf' | relative_url }})
 
-### Femgenerationsbilder
+## Femgenerationsbilder
 För närvarande finns aktuella femgenerationsbilder i inget av IKA:s distrikt.
