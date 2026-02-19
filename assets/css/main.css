@@ -130,6 +130,14 @@ body {
     clear: both;
 }
 
+/* Force first h1 in mainContent to have no top margin */
+.twoColFixLtHdr #mainContent h1:first-of-type,
+.twoColFixLtHdr #mainContent > h1:first-child,
+.twoColFixLtHdr #mainContent > *:first-child > h1:first-child,
+.twoColFixLtHdr #mainContent > *:first-child h1:first-of-type {
+    margin-top: 0 !important;
+}
+
 /* Reduce top margin for the first h1 on a page */
 .twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child h1,
 .twoColFixLtHdr #mainContent .page-content > h1:first-child {
@@ -141,7 +149,7 @@ body {
 .twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child h3,
 .twoColFixLtHdr #mainContent .home-content > h1:first-child,
 .twoColFixLtHdr #mainContent .home-content > h3:first-child {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 .twoColFixLtHdr #mainContent h2 {
