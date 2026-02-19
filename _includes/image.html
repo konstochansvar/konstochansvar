@@ -6,16 +6,17 @@
   - alt: Alt text (required)
   - caption: Optional caption text
   - class: Optional CSS class (e.g., "fltlft" for floating left)
-  - width: Optional width attribute
-  - height: Optional height attribute
+  - width: Optional width attribute (pixels, e.g. "200")
+  - height: Optional height attribute (pixels, e.g. "150")
+  - style: Optional inline style (e.g. "width:75%")
   - loading: Loading attribute (lazy/eager, default: lazy)
 {% endcomment %}
 {% if include.caption %}
 <figure class="image-container {% if include.class %}{{ include.class }}{% endif %}">
-    <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}" class="content-image">
+    <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}" class="content-image">
     <figcaption class="image-caption">{{ include.caption }}</figcaption>
 </figure>
 {% else %}
-<img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}">
+<img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.style %} style="{{ include.style }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %} loading="{{ include.loading | default: 'lazy' }}">
 {% endif %}
 
