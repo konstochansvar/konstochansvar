@@ -7,6 +7,8 @@ permalink: "/anmalan/"
 
 # Anmälan
 
-Torsdag 26 mars fyller jag femtio år. Det firar jag samma dag, med att inbjuda dig till Det svenka kommunkvisset - de första femtio åren. Ta med dig livskamrat, barn, granne eller någon annan om du vill. 
-Ta inte med någon present. Att du kommer är gott nog.
-Anmälan senast 15/3 på www.konstochansvar.se/anmalan
+Här anmäler du dig till Det svenska kommunkvisset - de första femtio åren
+
+https://forms.gle/tVorgsPoSkVNnpWg9
+
+{% include image.html src="/assets/images/content/011.JPG" alt="" width="160" height="163" class="fltlft" %}
