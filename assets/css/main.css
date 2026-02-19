@@ -109,26 +109,12 @@ body {
     font-size: 12px;
 }
 
-/* Ensure home-content has no top spacing */
-.twoColFixLtHdr #mainContent .home-content {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-/* Remove top margin from first child element in home-content (more specific) */
-.twoColFixLtHdr #mainContent .home-content > *:first-child {
-    margin-top: 0 !important;
-}
-
-/* Ensure page-content has no top spacing */
+/* Prevent margin collapse in content wrappers by creating a new block formatting context */
+.twoColFixLtHdr #mainContent .home-content,
 .twoColFixLtHdr #mainContent .page-content {
+    display: flow-root;
     margin-top: 0;
     padding-top: 0;
-}
-
-/* Remove top margin from first child element in page-content */
-.twoColFixLtHdr #mainContent .page-content > *:first-child {
-    margin-top: 0 !important;
 }
 
 .twoColFixLtHdr #mainContent h1 {
@@ -141,26 +127,14 @@ body {
     clear: both;
 }
 
-/* Force first h1 in mainContent to have no top margin */
-.twoColFixLtHdr #mainContent h1:first-of-type,
-.twoColFixLtHdr #mainContent > h1:first-child,
-.twoColFixLtHdr #mainContent > *:first-child > h1:first-child,
-.twoColFixLtHdr #mainContent > *:first-child h1:first-of-type {
-    margin-top: 0 !important;
-}
-
-/* Reduce top margin for the first h1 on a page */
-.twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child h1,
-.twoColFixLtHdr #mainContent .page-content > h1:first-child {
-    margin-top: 0 !important;
-}
-
-/* Reduce top margin for the first h1 or h3 in home-content */
-.twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child h1,
-.twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child h3,
+/* Remove top margin from the first heading in any content wrapper */
+.twoColFixLtHdr #mainContent .page-content > h1:first-child,
+.twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child > h1:first-child,
 .twoColFixLtHdr #mainContent .home-content > h1:first-child,
-.twoColFixLtHdr #mainContent .home-content > h3:first-child {
-    margin-top: 0 !important;
+.twoColFixLtHdr #mainContent .home-content > h3:first-child,
+.twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child > h1:first-child,
+.twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child > h3:first-child {
+    margin-top: 0;
 }
 
 .twoColFixLtHdr #mainContent h2 {
@@ -223,11 +197,7 @@ body {
 }
 
 /* Remove top margin from first section wrapper */
-.twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child {
-    margin-top: 0 !important;
-}
-
-/* Remove top margin from first section wrapper in home-content */
+.twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child,
 .twoColFixLtHdr #mainContent .home-content .section-wrapper:first-child {
     margin-top: 0;
 }
