@@ -120,6 +120,17 @@ body {
     margin-top: 0 !important;
 }
 
+/* Ensure page-content has no top spacing */
+.twoColFixLtHdr #mainContent .page-content {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Remove top margin from first child element in page-content */
+.twoColFixLtHdr #mainContent .page-content > *:first-child {
+    margin-top: 0 !important;
+}
+
 .twoColFixLtHdr #mainContent h1 {
     margin: 0;
     padding: 0;
@@ -141,7 +152,7 @@ body {
 /* Reduce top margin for the first h1 on a page */
 .twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child h1,
 .twoColFixLtHdr #mainContent .page-content > h1:first-child {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 /* Reduce top margin for the first h1 or h3 in home-content */
@@ -213,7 +224,7 @@ body {
 
 /* Remove top margin from first section wrapper */
 .twoColFixLtHdr #mainContent .page-content .section-wrapper:first-child {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 /* Remove top margin from first section wrapper in home-content */
